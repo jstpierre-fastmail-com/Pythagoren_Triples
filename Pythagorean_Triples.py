@@ -3,6 +3,8 @@ import math
 
 # return every pythagorean triples as his simplest form and without repeating it.
 def get_pythagorean_triples(n):
+    
+    
     output = ''
     num_list = []
     for i in range(1, n + 1):
